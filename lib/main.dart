@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lessons/card_widget.dart';
+import 'package:flutter_lessons/home.dart';
+import 'package:flutter_lessons/item_card.dart';
+import 'package:flutter_lessons/lesson1.dart';
 import 'package:flutter_lessons/sign_up.dart';
+import 'package:flutter_lessons/sing_up.dart';
+import 'package:flutter_lessons/ui.dart';
+import 'package:flutter_lessons/ui4.dart';
+import 'package:flutter_lessons/ui5.dart';
+import 'package:flutter_lessons/ui6.dart';
+import 'package:flutter_lessons/ui7.dart';
+import 'package:flutter_lessons/welcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +45,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
 
       ),
-      home: const SignUp(),
+      home: Ui6(),
     );
   }
 }
